@@ -1,0 +1,4 @@
+artifacts:
+  airline-price-xgb-pred:
+    path: model_dir/airline-price-xgb-pred.joblib
+    type: model
