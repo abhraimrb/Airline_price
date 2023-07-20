@@ -11,6 +11,6 @@ plots:
     y: predicted
     title: Actual price vs Predicted price
 artifacts:
-  airline-price-pred:
-    path: ../model_dir/airline-price-pred.joblib
+  airline-price-prediction:
+    path: ../model_dir/airline-price-prediction.joblib
     type: model
