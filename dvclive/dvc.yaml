@@ -1,0 +1,12 @@
+params:
+- params.yaml
+metrics:
+- metrics.json
+plots:
+- plots/metrics:
+    x: step
+- plots/custom/Actual price vs Predicted price.json:
+    template: scatter
+    x: actual
+    y: predicted
+    title: Actual price vs Predicted price
