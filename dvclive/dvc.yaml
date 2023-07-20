@@ -10,3 +10,10 @@ plots:
     x: actual
     y: predicted
     title: Actual price vs Predicted price
+artifacts:
+  app-regression: #
+    path: model_dir/airline_price_pred.joblib
+    type: model
+    desc: 'Regression Model'
+    meta:
+      framework: sklearn
