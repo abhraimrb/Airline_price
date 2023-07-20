@@ -1,4 +1,4 @@
 outs:
-- md5: 22d8e34aacb83c72e4346dff18e26bce
-  size: 742799589
+- md5: 3bd2f2723687e82685fb1248c78dadd7
+  size: 742613221
   path: airline-price-pred.joblib
