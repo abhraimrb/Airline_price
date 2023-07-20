@@ -5,12 +5,3 @@ metrics:
 plots:
 - plots/metrics:
     x: step
-- plots/custom/Actual price vs Predicted price.json:
-    template: scatter
-    x: actual
-    y: predicted
-    title: Actual price vs Predicted price
-artifacts:
-  airline-price-pred:
-    path: ../model_dir/airline-price-pred.joblib
-    type: model
